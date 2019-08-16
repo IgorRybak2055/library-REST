@@ -1,0 +1,32 @@
+[
+  {
+    "model": "subscribers.Subscriber",
+    "pk": 1,
+    "fields": {
+      "first_name": "Ivan",
+      "last_name": "Stachkin",
+      "address": "Minsk, Surganova 25/48",
+      "phone": "+375441068954"
+    }
+  },
+  {
+    "model": "subscribers.Subscriber",
+    "pk": 2,
+    "fields": {
+      "first_name": "Ruslan",
+      "last_name": "Gvozd",
+      "address": "Minsk, Plehanova 146/81",
+      "phone": "+375254415680"
+    }
+  },
+  {
+    "model": "subscribers.Subscriber",
+    "pk": 3,
+    "fields": {
+      "first_name": "Alex",
+      "last_name": "Medkov",
+      "address": "Minsk, P.Brovki 41/7",
+      "phone": "+375332275583"
+    }
+  }
+]

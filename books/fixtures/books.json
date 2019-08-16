@@ -1,0 +1,32 @@
+[
+  {
+    "model": "books.Book",
+    "pk": 1,
+    "fields": {
+      "author": "Bill Lubanovic",
+      "genre": "IT",
+      "book_name": "Introducing Python",
+      "language": "Russian"
+    }
+  },
+  {
+    "model": "books.Book",
+    "pk": 2,
+    "fields": {
+      "author": "Mark Lutz",
+      "genre": "IT",
+      "book_name": "Python",
+      "language": "Russian"
+    }
+  },
+  {
+    "model": "books.Book",
+    "pk": 3,
+    "fields": {
+      "author": "Herbert Schildt",
+      "genre": "IT",
+      "book_name": "Java",
+      "language": "Russian"
+    }
+  }
+]
