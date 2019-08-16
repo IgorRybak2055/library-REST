@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <script src="{% static 'books.js' %}"></script>
+
+ <div style="padding-top: 57px">
+     <table class="table table-bordered ">
+         <thead >
+            <tr>
+                <th scope="col">Author</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Name</th>
+                <th scope="col">Edit</th>
+            </tr>
+         </thead>
+
+         <tbody class="table">
+
+        </tbody>
+    </table>
+
+ <div class="text-center">
+     <h4 class="text-center"> Add new book </h4>
+     <label> Name </label> <input id="name" placeholder=""/>
+     <label> Author </label> <input id="author" placeholder=""/>
+     <label> Genre </label> <input id="genre" placeholder=""/>
+     <label> Language </label> <input id="lang" placeholder=""/>
+     <button id="add-book">Add</button>
+ </div>
+
+ </div>
+
+{% endblock content %}

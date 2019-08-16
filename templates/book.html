@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div><label>Номер книги: </label> <input id="b_id" value="{{ id }}" readonly/></div>
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script>
+
+    <script src="{% static 'edit_book.js' %}"></script>
+
+    <div class="container">
+        <div><label>Название книги: </label> <input id="b_name"/></div>
+        <div><label>Автор: </label> <input id="b_author"/></div>
+        <div><label>Жанр: </label> <input id="b_genre"/></div>
+        <div><label>Язык: </label> <input id="b_lang"/></div>
+    </div>
+
+    <button class="btn-danger" id="save-changes">Save!</button>
+{% endblock content %}

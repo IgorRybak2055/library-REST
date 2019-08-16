@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <div>
+        <label> User </label> <input id="user_id" value="{{ id }}" readonly />
+    </div>
+
+     <script src="{% static 'subscribers.js' %}"></script>
+
+ <div style="padding-top: 57px">
+     <table class="table table-bordered ">
+         <thead >
+            <tr>
+                <th scope="col">Author</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Name</th>
+                <th scope="col">Free</th>
+            </tr>
+         </thead>
+
+         <tbody class="table">
+
+        </tbody>
+    </table>
+     <div>
+        <select id="b_name" class="combo-box" name="idmaster">
+            <option value="default">Select a book</option>
+        </select>
+
+      </div>
+    <button id="add-book">Add!</button>
+
+ </div>
+
+{% endblock content %}

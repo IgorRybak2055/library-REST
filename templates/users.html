@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <h4 class="text-center"> Users </h4>
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script>
+
+    <script src="{% static 'hello.js' %}"></script>
+
+    <table class="table table-bordered" >
+         <thead >
+            <tr>
+                <th scope="col">First name</th>
+                <th scope="col">Last name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Phone</th>
+            </tr>
+         </thead>
+
+         <tbody class="table">
+
+        </tbody>
+    </table>
+
+    <div class="text-center">
+         <h4 class="text-center"> Add new user </h4>
+         <label> First name </label> <input id="first_name" placeholder=""/>
+         <label> Last name </label> <input id="last_name" placeholder=""/>
+         <label> Address </label> <input id="address" placeholder=""/>
+         <label> Phone </label> <input id="phone" placeholder=""/>
+         <button id="add-user">Add</button>
+    </div>
+
+{% endblock content %}
