@@ -1,6 +1,6 @@
 Django==2.2.4
 django-cors-headers==3.0.2
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 djangorestframework-jsonapi==2.8.0
 djangorestframework-stubs==1.0.0
 inflection==0.3.1
